@@ -1,0 +1,20 @@
+/* buttons */
+.btn-dark:hover,.btn-dark:focus,.btn-dark:active  {
+  background: #d9232d;
+  border:1px solid #d9232d;
+}
+
+.btn-theme {
+  border:1px solid #d9232d;
+  background: #d9232d;
+}
+
+select {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #d9232d;
+  border-radius: 8px;
+  box-sizing: content-box;
+}

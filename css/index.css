@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.profilephoto {
+  width: 20%;
+  height: 150px;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 0px;
+  float: left;
+  align-items: flex-start;
+}
+
+.Connect {
+  width: 10%;
+  height: 100%;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 100px;
+  padding-right: 15px;
+  float: right;
+  align-items: flex-end;
+}
+
+.profilename {
+  width: 70%;
+  height: 150px;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 80px;
+  float: left;
+  align-items: center;
+}
+
+.header {
+  border: 1px solid #f1f1f1;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 0px;
+  text-align: left;
+  text-decoration: none;
+}
+.header:hover {
+  box-shadow: 5px 5px 5px 8px grey;
+}
+
+
+.leftside {
+  width: 49%;
+  height: 500px;
+  float: left;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px;
+  margin-right: 24px;
+  border: 1px solid #f1f1f1;
+}
+.leftside:hover {
+  box-shadow: 5px 5px 5px 8px grey;
+}
+
+.rightside {
+  width: 49%;
+  height: 500px;
+  float: left;
+  border-radius: 10px 10px 10px 10px;
+  padding: 15px;
+  border: 1px solid #f1f1f1;
+}
+.rightside:hover {
+  box-shadow: 5px 5px 5px 8px grey;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 6px;
+}
+
+.button {
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button0 {background-color: #008CBA; color: #ffffff; width: 100%; height: 50px; border: 2px solid #f1f1f1}
+.button0:hover {
+  color: #111111;
+  opacity: 0.7;
+}
+
+.button1 {background-color: lime; color: #111111; width: 45%; height: 50px; border: 2px solid #f1f1f1}
+.button1:hover {
+  background-color: #111111;
+  color: white;
+}
+.button2 {background-color: lime; color: #111111; width: 45%; height: 50px; border: 2px solid #f1f1f1}
+.button2:hover {
+  background-color: #111111;
+  color: white;
+}
+
+textarea {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
